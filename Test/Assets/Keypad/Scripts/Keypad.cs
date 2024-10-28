@@ -14,8 +14,9 @@ namespace NavKeypad
         [Header("Combination Code (9 Numbers Max)")]
         [SerializeField] private int keypadCombo = 3326;
 
-        [SerializeField] private SlidingDoor slidingDoor; // Referenz zur SlidingDoor
-
+        // Referenz zur SlidingDoor
+        [SerializeField] private SlidingDoor door1;
+        [SerializeField] private SlidingDoor door2;
 
         public UnityEvent OnAccessGranted => onAccessGranted;
         public UnityEvent OnAccessDenied => onAccessDenied;
@@ -41,6 +42,11 @@ namespace NavKeypad
         [SerializeField] private TMP_Text keypadDisplayText;
         [SerializeField] private AudioSource audioSource;
 
+        [SerializeField] private GameObject doubleDoor;
+        [SerializeField] private Vector3 openPosition = new Vector3(0, 0, -2);
+        [SerializeField] public GameObject gallery;
+
+        
 
         private string currentInput;
         private bool displayingResult = false;
@@ -128,7 +134,19 @@ namespace NavKeypad
             onAccessGranted?.Invoke();
             panelMesh.material.SetVector("_EmissionColor", screenGrantedColor * screenIntensity);
             audioSource.PlayOneShot(accessGrantedSfx);
-        }
 
+            if (doubleDoor != null)
+            {
+                gallery.transform.localPosition = new Vector3(0, 0, -2);
+                gallery.transform.localScale = new Vector3(1, 1, 1.5f);
+                
+
+                Destroy(doubleDoor);
+            }
+            
+        }
     }
-}
+    }
+
+
+       
