@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49163
+49423
 Successfully changed project path to: /Users/jan/Projekts/FTMuseum/Test
 /Users/jan/Projekts/FTMuseum/Test
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -58,10 +58,12 @@ Successfully changed project path to: /Users/jan/Projekts/FTMuseum/Test
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8430123072]  Target information:
 
+Player connection [8430123072]  * "[IP] 192.168.1.144 [Port] 0 [Flags] 2 [Guid] 341349401 [EditorId] 341349401 [Version] 1048832 [Id] OSXEditor(0,MBP-from-Jan-MK.fritz.box) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
 Player connection [8430123072] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8430123072] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
-Refreshing native plugins compatible for Editor in 4.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.48f1 (8bf49c377ebf)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.48f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,34 +78,34 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.48f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.48f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.48f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56482
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56802
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.48f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001158 seconds.
-- Loaded All Assemblies, in  0.189 seconds
+Registered in 0.001302 seconds.
+- Loaded All Assemblies, in  0.191 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.146 seconds
-Domain Reload Profiling: 335ms
-	BeginReloadAssembly (47ms)
+- Finished resetting the current domain, in  0.147 seconds
+Domain Reload Profiling: 338ms
+	BeginReloadAssembly (48ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
 	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (86ms)
-		LoadAssemblies (47ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (87ms)
+		LoadAssemblies (48ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (85ms)
-			TypeCache.Refresh (84ms)
-				TypeCache.ScanAssembly (76ms)
+		AnalyzeDomain (86ms)
+			TypeCache.Refresh (85ms)
+				TypeCache.ScanAssembly (77ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (146ms)
+	FinalizeReload (147ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (118ms)
@@ -112,8 +114,8 @@ Domain Reload Profiling: 335ms
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (83ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
+			ProcessInitializeOnLoadAttributes (84ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -122,121 +124,109 @@ Domain Reload Profiling: 335ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-Symbol file data-0x1203f0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file data-0x1483a0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x11e177400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-0x135c6c400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120860000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file data-0x148400000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x17fa0f400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file data-0x135c6e600 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x17fa18800 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-0x135c77a00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x138058000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-0x138300000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1380b0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-0x1380a0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x17fa1dc00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-0x1339d8c00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1380c0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file data-0x138420000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x130080000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file data-0x140208000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x140038000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file data-0x1401f8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1300b8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file data-0x140310000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12a386600 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Settings.Editor.dll
+Symbol file data-0x17fc0a200 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x17fa1ee00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-0x17fbfd600 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x11e177400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file data-0x1339d0e00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x140038000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file data-0x138310000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x308af8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file data-0x138420000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1403e0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file data-0x138620000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x140288000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file data-0x138310000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120b80000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file data-0x138780000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1203f0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file data-0x140210000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1203f0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file data-0x140210000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12a38dc00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file data-0x134915400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12a38d400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file data-0x13491c200 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x140038000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file data-0x140360000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120a20000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file data-0x1403e8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120be0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-0x140348000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.332 seconds
+- Loaded All Assemblies, in  0.323 seconds
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Curl error 6: Could not resolve host: dreamteck.io
-An error occured while fetching the banners data.
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Dreamteck.Splines.Editor.PluginInfo:.cctor () (at Assets/Plugins/Dreamteck/Splines/Editor/WelcomeScreen.cs:40)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:119)
-
-(Filename: Assets/Plugins/Dreamteck/Splines/Editor/WelcomeScreen.cs Line: 40)
-
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.380 seconds
-Domain Reload Profiling: 712ms
-	BeginReloadAssembly (72ms)
+- Finished resetting the current domain, in  1.138 seconds
+Domain Reload Profiling: 1462ms
+	BeginReloadAssembly (71ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (16ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (208ms)
-		LoadAssemblies (126ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (202ms)
+		LoadAssemblies (121ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (116ms)
-			TypeCache.Refresh (103ms)
+		AnalyzeDomain (114ms)
+			TypeCache.Refresh (102ms)
 				TypeCache.ScanAssembly (92ms)
-			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (380ms)
+	FinalizeReload (1138ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (292ms)
+		SetupLoadedEditorAssemblies (1057ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (33ms)
-			ProcessInitializeOnLoadAttributes (243ms)
-			ProcessInitializeOnLoadMethodAttributes (10ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (1010ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.48f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3313 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 19 unused Assets / (48.9 KB). Loaded Objects now: 3783.
-Memory consumption went from 133.0 MB to 133.0 MB.
-Total: 2.649916 ms (FindLiveObjects: 0.121458 ms CreateObjectMapping: 0.051750 ms MarkObjects: 2.410625 ms  DeleteObjects: 0.065583 ms)
+Memory consumption went from 129.1 MB to 129.1 MB.
+Total: 2.543500 ms (FindLiveObjects: 0.106833 ms CreateObjectMapping: 0.046000 ms MarkObjects: 2.295333 ms  DeleteObjects: 0.094917 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -253,301 +243,135 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 119.797532 seconds.
-  path: Assets/NPC/Remy_Body_Diffuse.png
-  artifactKey: Guid(8d2c2d1347a3d40918bccba120e02a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Remy_Body_Diffuse.png using Guid(8d2c2d1347a3d40918bccba120e02a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+  Time since last request: 1365.364386 seconds.
+  path: Assets/NPC/Pointing.fbx
+  artifactKey: Guid(19aa6e9edfa444ec5bb6e526a2c822f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Pointing.fbx using Guid(19aa6e9edfa444ec5bb6e526a2c822f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: '21856aae42510ff726d002c077f60b0a') in 0.048811 seconds
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '46eb219c2abe2acb83c9ba09f5d56e0e') in 0.175713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 141
+========================================================================
+Received Import Request.
+  Time since last request: 29.390717 seconds.
+  path: Assets/NPC/Ch12_1001_Diffuse.png
+  artifactKey: Guid(a1bb1683ae33e4f0090fcf48fbffb838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Ch12_1001_Diffuse.png using Guid(a1bb1683ae33e4f0090fcf48fbffb838) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '64f1dee3d8d337c58d1b7cb338fab61e') in 0.024265 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.005281 seconds.
-  path: Assets/NPC/Remy_Body_Specular.png
-  artifactKey: Guid(32a041198f748470ea42bfcab54ab5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Remy_Body_Specular.png using Guid(32a041198f748470ea42bfcab54ab5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+  Time since last request: 0.015583 seconds.
+  path: Assets/NPC/Ch12_1001_Specular.png
+  artifactKey: Guid(07fd2b6c6ca03429c926ae26051fe125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Ch12_1001_Specular.png using Guid(07fd2b6c6ca03429c926ae26051fe125) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: '12dd224042b1254a05d1b879e46a6705') in 0.006234 seconds
+ -> (artifact id: '72c39ea0ee985f56d14c7ddb6c6f6e8b') in 0.005039 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001071 seconds.
-  path: Assets/NPC/Remy_Bottom_Gloss.png
-  artifactKey: Guid(66eed731523404c00b96bd348daf22b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Remy_Bottom_Gloss.png using Guid(66eed731523404c00b96bd348daf22b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+  Time since last request: 0.006021 seconds.
+  path: Assets/NPC/Ch12_1001_Glossiness.png
+  artifactKey: Guid(b383a8480ba414a5f8ca04c50430a155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Ch12_1001_Glossiness.png using Guid(b383a8480ba414a5f8ca04c50430a155) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: '88e0fceb14229d3a3eb01973c3ec9c67') in 0.005382 seconds
+ -> (artifact id: '7e98b596443e265de64fa5e029a590e0') in 0.005005 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000857 seconds.
-  path: Assets/NPC/Remy_Top_Gloss.png
-  artifactKey: Guid(3953075ea14e7468b82ea0e4bf901b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Remy_Top_Gloss.png using Guid(3953075ea14e7468b82ea0e4bf901b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+  Time since last request: 0.006287 seconds.
+  path: Assets/NPC/Ch12_1001_Normal.png
+  artifactKey: Guid(e68c2b1110dc4460fbb233f97cbf9de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Ch12_1001_Normal.png using Guid(e68c2b1110dc4460fbb233f97cbf9de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: '9ccda31ea3a6b6befb16241f9f68e2b2') in 0.005804 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/NPC/Remy_Hair_Specular.png
-  artifactKey: Guid(97062cc316e7e407e8426fb27e98aef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Remy_Hair_Specular.png using Guid(97062cc316e7e407e8426fb27e98aef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: '12dc244f5322fbdf60d96f34a227decd') in 0.004266 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/NPC/Remy_Top_Specular.png
-  artifactKey: Guid(a5ecfca2a8a5446bcbf69fba63bb6608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Remy_Top_Specular.png using Guid(a5ecfca2a8a5446bcbf69fba63bb6608) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: '02dc8622eb7c8a0112706a9b7432c62e') in 0.004301 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/NPC/Remy_Bottom_Diffuse.png
-  artifactKey: Guid(16ede773572524fcbb51b355f67f4928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Remy_Bottom_Diffuse.png using Guid(16ede773572524fcbb51b355f67f4928) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: '1d3a162c1c4dc3a6e761e9a09bab76f1') in 0.003757 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/NPC/Remy_Body_Normal.png
-  artifactKey: Guid(4d9703c68c3eb4bf6987f7f0dd4acc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Remy_Body_Normal.png using Guid(4d9703c68c3eb4bf6987f7f0dd4acc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: '1afbf5b89e8c4facc9a6c3b9e73d04a4') in 0.005697 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/NPC/Remy_Hair_Diffuse.png
-  artifactKey: Guid(9e7d0bd9760d942b3aad73684b750509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Remy_Hair_Diffuse.png using Guid(9e7d0bd9760d942b3aad73684b750509) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: '929d82d11465181938c34ce0af1df251') in 0.004176 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/NPC/Remy_Hair_Opacity.png
-  artifactKey: Guid(e1da73606901d4d83806fb6d5f2c35ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Remy_Hair_Opacity.png using Guid(e1da73606901d4d83806fb6d5f2c35ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: '37d4de6f950754b88ae67acf19033c1d') in 0.003104 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/NPC/Remy_Shoes_Normal.png
-  artifactKey: Guid(6c7e03d4937dc4475ab19110e893aebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Remy_Shoes_Normal.png using Guid(6c7e03d4937dc4475ab19110e893aebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: '69a0c3a5210687df89e2b444a9fa4600') in 0.005577 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/NPC/Remy_Body_Opacity.png
-  artifactKey: Guid(b16944ca0847c45da8ad0cf7c6635810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Remy_Body_Opacity.png using Guid(b16944ca0847c45da8ad0cf7c6635810) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: '822dcb93ad7477a0662b502ecac81222') in 0.004271 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/NPC/Remy_Body_Gloss.png
-  artifactKey: Guid(2b5abfd70a4c844b98e3df9410b19b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Remy_Body_Gloss.png using Guid(2b5abfd70a4c844b98e3df9410b19b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: 'cbf5558fb04f576b1a21e73c3d8dc1cb') in 0.003661 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/NPC/Remy_Top_Normal.png
-  artifactKey: Guid(210e611ad392a447f84b3e337029bf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Remy_Top_Normal.png using Guid(210e611ad392a447f84b3e337029bf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: '7bc500690a1ff96114fc87a45f007218') in 0.003471 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/NPC/Remy_Bottom_Normal.png
-  artifactKey: Guid(6b21027f393044303a9d64045f5ed57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Remy_Bottom_Normal.png using Guid(6b21027f393044303a9d64045f5ed57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: 'e03976b3b06f80d563a716f17a071323') in 0.004138 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/NPC/Remy_Top_Diffuse.png
-  artifactKey: Guid(88390bf108293407394c542898e0979d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Remy_Top_Diffuse.png using Guid(88390bf108293407394c542898e0979d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: '0ad9595471e7d7578f06bb3c8f27d543') in 0.003323 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/NPC/Remy_Hair_Normal.png
-  artifactKey: Guid(bbfd58f02248741be854417e5bd555e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Remy_Hair_Normal.png using Guid(bbfd58f02248741be854417e5bd555e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: '657fe2c033d5d5262aa2f0e9b221fb43') in 0.004161 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/NPC/Remy_Hair_Gloss.png
-  artifactKey: Guid(21cc65c8d35944942969daf4b160e1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Remy_Hair_Gloss.png using Guid(21cc65c8d35944942969daf4b160e1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: '6c5ba6cfa8c7a9243c88beafbf02ed13') in 0.003240 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/NPC/Remy_Shoes_Gloss.png
-  artifactKey: Guid(7ee24b409eb9a41c1bdade940947e864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Remy_Shoes_Gloss.png using Guid(7ee24b409eb9a41c1bdade940947e864) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: '9ac6c9dde461092080693ff863d5f69e') in 0.004520 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/NPC/Remy_Shoes_Diffuse.png
-  artifactKey: Guid(456a0892f519b4315b2204f753d1574d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Remy_Shoes_Diffuse.png using Guid(456a0892f519b4315b2204f753d1574d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: 'c827e35164ca52e874534feeed0dfce3') in 0.004069 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/NPC/Remy_Bottom_Specular.png
-  artifactKey: Guid(62e09f45d6870453baff116c58a3665f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Remy_Bottom_Specular.png using Guid(62e09f45d6870453baff116c58a3665f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: '9dd6660b1d84a2e7f9b220095cb839c2') in 0.004200 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000547 seconds.
-  path: Assets/NPC/Remy_Shoes_Specular.png
-  artifactKey: Guid(466c50c4d716f459db635637b3989f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Remy_Shoes_Specular.png using Guid(466c50c4d716f459db635637b3989f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: '2333eddf291419132a5a3d1397f663ed') in 0.003995 seconds
+ -> (artifact id: '14cbe65790649b0306383e0787ac1844') in 0.005762 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-Thread 0x31999f000 may have been prematurely finalized
-Symbol file data-0x130068000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.dll
+Thread 0x3237f3000 may have been prematurely finalized
+Symbol file data-0x1207c8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12a522a00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-0x32538f600 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1300c8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file data-0x120828000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12a4e9000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file data-0x325391800 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12a36c600 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-0x32539ac00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x130138000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-0x120898000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x130068000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-0x120030000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12a234a00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-0x3253a1600 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x130138000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file data-0x120938000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x130278000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file data-0x1209a8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x130158000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file data-0x120958000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x130330000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file data-0x148390000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12a52b800 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Settings.Editor.dll
+Symbol file data-0x135e0f600 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12a36c600 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-0x135e1ca00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12a214c00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file data-0x3253a1600 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x130168000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file data-0x120958000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x130330000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file data-0x120b10000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x130530000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file data-0x120be0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x130370000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file data-0x120958000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x130648000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file data-0x120d80000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x130168000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file data-0x120970000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x130168000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file data-0x120970000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12a52b800 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file data-0x325382c00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12a351a00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file data-0x3253bc000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x130698000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file data-0x120d80000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x130720000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file data-0x120e08000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x140070000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-0x120d80000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.212 seconds
+- Loaded All Assemblies, in  0.218 seconds
 Native extension for OSXStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.264 seconds
-Domain Reload Profiling: 1476ms
-	BeginReloadAssembly (78ms)
+- Finished resetting the current domain, in  1.170 seconds
+Domain Reload Profiling: 1389ms
+	BeginReloadAssembly (81ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (11ms)
-	LoadAllAssembliesAndSetupDomain (94ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (95ms)
 		LoadAssemblies (115ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (10ms)
@@ -555,267 +379,161 @@ Domain Reload Profiling: 1476ms
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (1264ms)
+	FinalizeReload (1171ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1096ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (28ms)
-			ProcessInitializeOnLoadAttributes (1054ms)
-			ProcessInitializeOnLoadMethodAttributes (10ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3292 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3789.
-Memory consumption went from 131.0 MB to 131.0 MB.
-Total: 2.420791 ms (FindLiveObjects: 0.126458 ms CreateObjectMapping: 0.055000 ms MarkObjects: 2.209208 ms  DeleteObjects: 0.029750 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-Thread 0x16be1b000 may have been prematurely finalized
-Symbol file data-0x3104e8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x118d1da00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x310548000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x118d1fc00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x118d29000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x3105b8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x310478000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x118d2fa00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x310678000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x3104e8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x310678000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x3107a0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x118d2fa00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x118d37000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x118d36a00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x310838000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x3107a0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x310950000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x310998000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x310ac8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x3107e0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x3107e0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x118d4e200 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x118d55000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x310b00000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x310980000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x310b00000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.203 seconds
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.881 seconds
-Domain Reload Profiling: 1084ms
-	BeginReloadAssembly (73ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (89ms)
-		LoadAssemblies (108ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (881ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (711ms)
+		SetupLoadedEditorAssemblies (984ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (28ms)
-			ProcessInitializeOnLoadAttributes (668ms)
-			ProcessInitializeOnLoadMethodAttributes (10ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3293 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3792.
-Memory consumption went from 136.8 MB to 136.8 MB.
-Total: 2.496917 ms (FindLiveObjects: 0.131083 ms CreateObjectMapping: 0.053375 ms MarkObjects: 2.280334 ms  DeleteObjects: 0.031625 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-Thread 0x16be1b000 may have been prematurely finalized
-Symbol file data-0x120b40000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x3187fa600 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120ba0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x3187fa600 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x3186dca00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120c10000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120b40000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x3186e3400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120cb0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120d30000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120cd0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120de8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x3186e3400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x3186eaa00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x3186e8400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120ce0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120de8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120fc8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120ce0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1210e0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120e28000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120e28000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x3186fd200 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x318704800 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x121130000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1211b8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x121130000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.206 seconds
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.894 seconds
-Domain Reload Profiling: 1100ms
-	BeginReloadAssembly (73ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (11ms)
-	LoadAllAssembliesAndSetupDomain (92ms)
-		LoadAssemblies (113ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (895ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (728ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (29ms)
-			ProcessInitializeOnLoadAttributes (685ms)
+			BeforeProcessingInitializeOnLoad (32ms)
+			ProcessInitializeOnLoadAttributes (937ms)
 			ProcessInitializeOnLoadMethodAttributes (10ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (3ms)
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3293 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3795.
-Memory consumption went from 142.4 MB to 142.4 MB.
-Total: 2.415584 ms (FindLiveObjects: 0.132208 ms CreateObjectMapping: 0.048000 ms MarkObjects: 2.208500 ms  DeleteObjects: 0.026500 ms)
+Unloading 3292 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3833.
+Memory consumption went from 135.4 MB to 135.4 MB.
+Total: 2.485000 ms (FindLiveObjects: 0.133209 ms CreateObjectMapping: 0.055958 ms MarkObjects: 2.267583 ms  DeleteObjects: 0.027833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 126.800255 seconds.
+  path: Assets/NPC/Pointing.fbx
+  artifactKey: Guid(19aa6e9edfa444ec5bb6e526a2c822f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Pointing.fbx using Guid(19aa6e9edfa444ec5bb6e526a2c822f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'dd86c7a1777e66225ca032eeeacaa9d2') in 0.215064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x17f343000 may have been prematurely finalized
+Symbol file data-0x318078000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x32c80a200 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x3180d8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x32c80a200 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x32c967400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x318148000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138078000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x133a48800 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138170000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1381e0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138190000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138298000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x133a48800 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x133a4fe00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x133a4d800 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1381a0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x121070000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x121140000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x121070000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1212e0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x121088000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x121088000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x32527e200 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x325285000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x121158000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x121380000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x121158000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.219 seconds
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.846 seconds
+Domain Reload Profiling: 1065ms
+	BeginReloadAssembly (78ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (99ms)
+		LoadAssemblies (119ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (847ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (654ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (607ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3292 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3836.
+Memory consumption went from 141.9 MB to 141.9 MB.
+Total: 2.722083 ms (FindLiveObjects: 0.154875 ms CreateObjectMapping: 0.065000 ms MarkObjects: 2.473084 ms  DeleteObjects: 0.028666 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -835,60 +553,230 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-Thread 0x16be1b000 may have been prematurely finalized
-Symbol file data-0x121050000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.dll
+Thread 0x16be83000 may have been prematurely finalized
+Symbol file data-0x1216c8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x3183d0200 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-0x3251e9400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1210b0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file data-0x121728000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x318448800 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file data-0x3251e9400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x3183a7200 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-0x325220000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x121120000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-0x121798000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120f28000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-0x1216c8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x3183adc00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-0x325226a00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1211c0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file data-0x121838000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x121230000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file data-0x1218b8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1387a8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file data-0x121858000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x138870000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file data-0x121970000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x129a45e00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Settings.Editor.dll
+Symbol file data-0x325226a00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x129a50800 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-0x3251e9400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x129a50800 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file data-0x325226a00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x138948000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file data-0x121868000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x138870000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file data-0x121970000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x138a60000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file data-0x121b50000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x138aa8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file data-0x121868000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x138bd8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file data-0x318378000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1388b0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file data-0x318348000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1388b0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file data-0x318348000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1298c0a00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file data-0x32c812200 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1298c7800 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file data-0x32cc53000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x138c10000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file data-0x3183f0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x138a90000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file data-0x318478000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x138c10000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-0x3183f0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.227 seconds
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.819 seconds
+Domain Reload Profiling: 1047ms
+	BeginReloadAssembly (86ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (98ms)
+		LoadAssemblies (120ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (820ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (654ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (605ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3293 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3839.
+Memory consumption went from 147.7 MB to 147.7 MB.
+Total: 2.508625 ms (FindLiveObjects: 0.139875 ms CreateObjectMapping: 0.063292 ms MarkObjects: 2.270250 ms  DeleteObjects: 0.034750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 150.360694 seconds.
+  path: Assets/NPC/Ch41_1001_Glossiness.png
+  artifactKey: Guid(286b1c20010da4bf59c08a1127f6814a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Ch41_1001_Glossiness.png using Guid(286b1c20010da4bf59c08a1127f6814a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '7afc9c4888c7222153091dd9e04db342') in 0.025182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/NPC/Ch41_1002_Diffuse.png
+  artifactKey: Guid(55678e92610a4425a85a0cec8173349c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Ch41_1002_Diffuse.png using Guid(55678e92610a4425a85a0cec8173349c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'f81af61eebb62e9a4967bfbf807a2ff2') in 0.006307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001472 seconds.
+  path: Assets/NPC/Ch41_1001_Normal.png
+  artifactKey: Guid(9eb8c7200e68f4d3fa056e8ab6f06852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Ch41_1001_Normal.png using Guid(9eb8c7200e68f4d3fa056e8ab6f06852) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'f7b4859ecb555480933238340ce7ded2') in 0.008815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/NPC/Ch41_1001_Specular.png
+  artifactKey: Guid(9ef28e38f95a941c48100d02f0034f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Ch41_1001_Specular.png using Guid(9ef28e38f95a941c48100d02f0034f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '48f8772a1bade33f4679a702a2bffb3a') in 0.004856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001189 seconds.
+  path: Assets/NPC/Ch41_1002_Normal.png
+  artifactKey: Guid(22c2417b3b6ec4c31906dfc216a25224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Ch41_1002_Normal.png using Guid(22c2417b3b6ec4c31906dfc216a25224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '70529b55474723aa609d728543927241') in 0.005184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16be83000 may have been prematurely finalized
+Symbol file data-0x120d20000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x325691600 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x120d80000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x325691600 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x325696200 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x120df0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x120d20000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x325698800 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1219b8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x121a38000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1219d8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138130000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13352a000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x133531600 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x133530800 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138208000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138130000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138338000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138380000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1384b0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138170000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138170000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x133546600 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x133603000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138368000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138550000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138368000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 - Loaded All Assemblies, in  0.214 seconds
 Native extension for OSXStandalone target not found
@@ -896,456 +784,46 @@ Native extension for OSXStandalone target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.193 seconds
-Domain Reload Profiling: 1406ms
-	BeginReloadAssembly (77ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (95ms)
-		LoadAssemblies (115ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (1193ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1007ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (32ms)
-			ProcessInitializeOnLoadAttributes (958ms)
-			ProcessInitializeOnLoadMethodAttributes (12ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3293 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3798.
-Memory consumption went from 148.0 MB to 148.0 MB.
-Total: 2.932000 ms (FindLiveObjects: 0.157917 ms CreateObjectMapping: 0.101917 ms MarkObjects: 2.639458 ms  DeleteObjects: 0.032208 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 817.654999 seconds.
-  path: Assets/NPC/Ch23_1001_Diffuse.png
-  artifactKey: Guid(4692bc6fa19354ea1b698342af4b00b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Ch23_1001_Diffuse.png using Guid(4692bc6fa19354ea1b698342af4b00b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: '914bee388bac26166f36308ff4325570') in 0.024591 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/NPC/Ch23_1001_Specular.png
-  artifactKey: Guid(310f69edde8df48c38f797cbc592c514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Ch23_1001_Specular.png using Guid(310f69edde8df48c38f797cbc592c514) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: '881e4f355aeb32cd483ae31c198c6841') in 0.003916 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.002145 seconds.
-  path: Assets/NPC/Ch23_1002_Diffuse.png
-  artifactKey: Guid(42dce1b219cb24d88a603dab507f921d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Ch23_1002_Diffuse.png using Guid(42dce1b219cb24d88a603dab507f921d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: '41459008180f8c7ad66755129bd79faa') in 0.006026 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/NPC/Ch23_1001_Glossiness.png
-  artifactKey: Guid(193d652ca2db244fd9a1a38c8c9ad87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Ch23_1001_Glossiness.png using Guid(193d652ca2db244fd9a1a38c8c9ad87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: '35647999454f37540f5ccb102043e102') in 0.004571 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.001573 seconds.
-  path: Assets/NPC/Ch23_1001_Normal.png
-  artifactKey: Guid(cc71dcca7b7f049749593187f9daf797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC/Ch23_1001_Normal.png using Guid(cc71dcca7b7f049749593187f9daf797) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
- -> (artifact id: '4b701cd03439f397f4f0a976904fd084') in 0.004893 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-Thread 0x16be1b000 may have been prematurely finalized
-Symbol file data-0x308918000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x324c10c00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x308978000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x324c10c00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x324c15800 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x3089e8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x308898000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x324c2ba00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x308a88000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x308af8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x308aa8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x308bb0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x324c2ba00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x324c33000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x324c30a00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x308ab8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x308bb0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x308d90000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x308ab8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x308ea8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x308bf0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x308bf0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12a5e0200 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12a5e7000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x138138000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x308ec0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x138138000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.222 seconds
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.148 seconds
-Domain Reload Profiling: 1370ms
-	BeginReloadAssembly (82ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (98ms)
-		LoadAssemblies (123ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (1148ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (985ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (27ms)
-			ProcessInitializeOnLoadAttributes (942ms)
-			ProcessInitializeOnLoadMethodAttributes (11ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3292 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.7 KB). Loaded Objects now: 3801.
-Memory consumption went from 153.7 MB to 153.7 MB.
-Total: 2.697000 ms (FindLiveObjects: 0.194625 ms CreateObjectMapping: 0.080541 ms MarkObjects: 2.388208 ms  DeleteObjects: 0.033125 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-Thread 0x16bd8f000 may have been prematurely finalized
-Symbol file data-0x120b78000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x129c8e600 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120bd8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x129c8e600 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x129c97a00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120c48000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120b78000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x129c9e400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120ce8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120d68000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120d08000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120e20000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x129c7b400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x129c9e400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x129c7b400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120d18000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120e20000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x121000000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120d18000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x121118000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120e60000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120e60000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x129c7b400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x129cb1400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x121168000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1211f0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x121168000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.216 seconds
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.937 seconds
-Domain Reload Profiling: 1153ms
-	BeginReloadAssembly (78ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (13ms)
-	LoadAllAssembliesAndSetupDomain (95ms)
-		LoadAssemblies (115ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (11ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (937ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (741ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (28ms)
-			ProcessInitializeOnLoadAttributes (696ms)
-			ProcessInitializeOnLoadMethodAttributes (12ms)
-			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3293 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3804.
-Memory consumption went from 159.6 MB to 159.6 MB.
-Total: 3.243833 ms (FindLiveObjects: 0.138833 ms CreateObjectMapping: 0.062167 ms MarkObjects: 3.004209 ms  DeleteObjects: 0.038125 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-Thread 0x16bd8f000 may have been prematurely finalized
-Symbol file data-0x3086a8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x324c49000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x308708000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x324c4b200 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x324c3b400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x308778000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x3086a8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x324c3b400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x308778000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x3087d0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x308798000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x309760000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x324909a00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x324911000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x32490ea00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x309818000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x309760000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x140028000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x309790000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x3099a8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x309818000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x309818000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x324922000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x324929600 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x309790000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x309a48000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x309790000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.216 seconds
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.857 seconds
-Domain Reload Profiling: 1073ms
+- Finished resetting the current domain, in  1.181 seconds
+Domain Reload Profiling: 1395ms
 	BeginReloadAssembly (79ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
+		CreateAndSetChildDomain (25ms)
 	RebuildCommonClasses (22ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (13ms)
+	initialDomainReloadingComplete (12ms)
 	LoadAllAssembliesAndSetupDomain (94ms)
-		LoadAssemblies (116ms)
+		LoadAssemblies (114ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (10ms)
 			TypeCache.Refresh (5ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (857ms)
+	FinalizeReload (1181ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (662ms)
+		SetupLoadedEditorAssemblies (994ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
+			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (32ms)
-			ProcessInitializeOnLoadAttributes (614ms)
+			ProcessInitializeOnLoadAttributes (946ms)
 			ProcessInitializeOnLoadMethodAttributes (11ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (3ms)
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3293 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3807.
-Memory consumption went from 165.2 MB to 165.2 MB.
-Total: 2.550208 ms (FindLiveObjects: 0.129667 ms CreateObjectMapping: 0.052291 ms MarkObjects: 2.338000 ms  DeleteObjects: 0.029792 ms)
+Unloading 3292 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.7 KB). Loaded Objects now: 3842.
+Memory consumption went from 153.4 MB to 153.4 MB.
+Total: 2.470458 ms (FindLiveObjects: 0.119375 ms CreateObjectMapping: 0.051666 ms MarkObjects: 2.270084 ms  DeleteObjects: 0.028875 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1362,63 +840,115 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 60.727885 seconds.
+  path: Assets/NPC/Thinking.fbx
+  artifactKey: Guid(d13c0e43e334d4a1e84c5c8f6eef2cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Thinking.fbx using Guid(d13c0e43e334d4a1e84c5c8f6eef2cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '68645bad0aa89f2cf5e28eed34d141cf') in 0.132012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 192.704135 seconds.
+  path: Assets/NPC/Thinking.fbx
+  artifactKey: Guid(d13c0e43e334d4a1e84c5c8f6eef2cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Thinking.fbx using Guid(d13c0e43e334d4a1e84c5c8f6eef2cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '6cc61b7ff6fa8e24658a5c99a38ce20a') in 0.070551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-Thread 0x16bd8f000 may have been prematurely finalized
-Symbol file data-0x1380c0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.dll
+Thread 0x16b7f3000 may have been prematurely finalized
+Symbol file data-0x318b98000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12a6e1600 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-0x32cb1a200 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x138120000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file data-0x318bf8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12a6e1600 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file data-0x32cb21400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12a6eaa00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-0x32cb2a800 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x138190000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-0x318c68000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1381b0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-0x318b98000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12a6f9800 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-0x32cb37200 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x140420000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file data-0x318d08000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1404b0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file data-0x318d88000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x140440000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file data-0x318d28000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1309f0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file data-0x318e58000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x318682400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Settings.Editor.dll
+Symbol file data-0x32cb37200 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x31856bc00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-0x32cb3e800 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x318570c00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file data-0x32cb3c200 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x130ad8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file data-0x318f10000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1309f0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file data-0x318e58000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x130bf0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file data-0x319028000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x130c38000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file data-0x319070000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x130d68000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file data-0x3191a0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1381b0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file data-0x1481e0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1381b0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file data-0x1481e0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12a701600 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file data-0x136670000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12a708400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file data-0x136676e00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x138408000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file data-0x148268000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x138490000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file data-0x1482f0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x138408000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-0x148268000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 - Loaded All Assemblies, in  0.220 seconds
 Native extension for OSXStandalone target not found
@@ -1426,46 +956,46 @@ Native extension for OSXStandalone target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.359 seconds
-Domain Reload Profiling: 1579ms
-	BeginReloadAssembly (81ms)
+- Finished resetting the current domain, in  1.159 seconds
+Domain Reload Profiling: 1379ms
+	BeginReloadAssembly (79ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (23ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (22ms)
 	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (97ms)
-		LoadAssemblies (119ms)
+	LoadAllAssembliesAndSetupDomain (99ms)
+		LoadAssemblies (120ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (10ms)
 			TypeCache.Refresh (5ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (1359ms)
+	FinalizeReload (1160ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1161ms)
+		SetupLoadedEditorAssemblies (964ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
+			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (35ms)
-			ProcessInitializeOnLoadAttributes (1110ms)
-			ProcessInitializeOnLoadMethodAttributes (11ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (918ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (3ms)
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3293 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3810.
-Memory consumption went from 170.8 MB to 170.8 MB.
-Total: 2.721458 ms (FindLiveObjects: 0.136250 ms CreateObjectMapping: 0.072208 ms MarkObjects: 2.481667 ms  DeleteObjects: 0.030958 ms)
+Unloading 3292 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.7 KB). Loaded Objects now: 3845.
+Memory consumption went from 159.7 MB to 159.7 MB.
+Total: 2.749542 ms (FindLiveObjects: 0.169958 ms CreateObjectMapping: 0.069375 ms MarkObjects: 2.478083 ms  DeleteObjects: 0.031459 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1482,63 +1012,113 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 262.546771 seconds.
+  path: Assets/NPC/Ch41_1001_Normal.png
+  artifactKey: Guid(9eb8c7200e68f4d3fa056e8ab6f06852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Ch41_1001_Normal.png using Guid(9eb8c7200e68f4d3fa056e8ab6f06852) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '9b3a1714fa1a69615ab5b27b023d90ac') in 0.067962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.206505 seconds.
+  path: Assets/NPC/Ch26_1001_Diffuse.png
+  artifactKey: Guid(b33acbb7862834ec8b87139be7816cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Ch26_1001_Diffuse.png using Guid(b33acbb7862834ec8b87139be7816cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '7ba2fb79b1285265b089512bb9967e48') in 0.007832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000773 seconds.
+  path: Assets/NPC/Ch26_1001_Normal.png
+  artifactKey: Guid(e02900cbe8b1949ceb7e446f1dad49b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Ch26_1001_Normal.png using Guid(e02900cbe8b1949ceb7e446f1dad49b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '0ad0b7cd0eb484cd3effca7a8e1e8dd1') in 0.005676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/NPC/Ch26_1001_Glossiness.png
+  artifactKey: Guid(00b1fea8bb1f94638a75823d5812a375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Ch26_1001_Glossiness.png using Guid(00b1fea8bb1f94638a75823d5812a375) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '5d44842abd0f38c7bd3dc9baef3f0e87') in 0.006330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/NPC/Ch26_1001_Specular.png
+  artifactKey: Guid(3d5af897e38d8449f95dcd75b3ce2c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Ch26_1001_Specular.png using Guid(3d5af897e38d8449f95dcd75b3ce2c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'c45de4e8d5d9e782399043d65d3acd06') in 0.006235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-Thread 0x16bd8f000 may have been prematurely finalized
-Symbol file data-0x130108000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.dll
+Thread 0x16b7f3000 may have been prematurely finalized
+Symbol file data-0x1387b0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x31868dc00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-0x1333cbe00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x130168000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file data-0x1380c0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x31868dc00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file data-0x1333cbe00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x318697000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-0x1333d5200 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x309e18000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-0x1387b0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x309e38000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-0x121fe0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x12a760a00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-0x1333d5200 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1389b0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file data-0x1381d0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x3104e8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file data-0x318360000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x310520000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file data-0x318398000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x3100c0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file data-0x318460000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x17ff0c400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Settings.Editor.dll
+Symbol file data-0x32cb30600 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x17ff13a00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-0x32cb37c00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x17ff11400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file data-0x32cb35600 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x310158000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file data-0x318360000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x3100c0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file data-0x318460000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120600000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file data-0x318640000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120088000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file data-0x318360000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1207a0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file data-0x318758000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120530000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file data-0x3184a0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120530000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file data-0x3184a0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x118ad6a00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file data-0x32cb47c00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x118add800 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file data-0x32cb4f200 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1207a0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file data-0x3187a8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x120828000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file data-0x318830000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1207a0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-0x3187a8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 - Loaded All Assemblies, in  0.221 seconds
 Native extension for OSXStandalone target not found
@@ -1546,46 +1126,46 @@ Native extension for OSXStandalone target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.847 seconds
-Domain Reload Profiling: 1069ms
-	BeginReloadAssembly (79ms)
+- Finished resetting the current domain, in  1.180 seconds
+Domain Reload Profiling: 1401ms
+	BeginReloadAssembly (80ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
+		CreateAndSetChildDomain (24ms)
 	RebuildCommonClasses (22ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (100ms)
-		LoadAssemblies (121ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (98ms)
+		LoadAssemblies (120ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (10ms)
 			TypeCache.Refresh (5ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (848ms)
+	FinalizeReload (1181ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (693ms)
+		SetupLoadedEditorAssemblies (989ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (28ms)
-			ProcessInitializeOnLoadAttributes (649ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (943ms)
 			ProcessInitializeOnLoadMethodAttributes (11ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (3ms)
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3293 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3813.
-Memory consumption went from 176.4 MB to 176.4 MB.
-Total: 2.566875 ms (FindLiveObjects: 0.143875 ms CreateObjectMapping: 0.055333 ms MarkObjects: 2.334500 ms  DeleteObjects: 0.032625 ms)
+Unloading 3292 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3850.
+Memory consumption went from 165.7 MB to 165.7 MB.
+Total: 2.478042 ms (FindLiveObjects: 0.125167 ms CreateObjectMapping: 0.063125 ms MarkObjects: 2.258917 ms  DeleteObjects: 0.030375 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1602,110 +1182,134 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 56.616322 seconds.
+  path: Assets/NPC/Texting While Standing.fbx
+  artifactKey: Guid(7108880adfd844442af46b34c5c72c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Texting While Standing.fbx using Guid(7108880adfd844442af46b34c5c72c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'cf1ff0fe8ac5bc13159383fcd554951d') in 0.113378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 165
+========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-Thread 0x16bd8f000 may have been prematurely finalized
-Symbol file data-0x30a088000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.dll
+Thread 0x16b7f3000 may have been prematurely finalized
+Symbol file data-0x140508000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x324d6de00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-0x134b03c00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x30a0e8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file data-0x150090000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x324d75000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file data-0x133cffa00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x324d7e400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-0x133d0da00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x30a158000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-0x150008000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x30a088000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-0x150100000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x324d84e00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-0x133d14400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x30a1f8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file data-0x1501b0000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x30a278000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file data-0x150220000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x30a218000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file data-0x150238000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x30a330000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file data-0x150300000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x324d84e00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Settings.Editor.dll
+Symbol file data-0x133d14400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x324d8c400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-0x133d1ba00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x324d8b600 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file data-0x133d19400 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x30a228000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file data-0x150390000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x30a330000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file data-0x150300000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x30a510000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file data-0x140008000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x30a228000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file data-0x140050000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x30a628000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file data-0x140660000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x30a370000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file data-0x140020000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x30a370000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file data-0x140020000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x324a0f800 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file data-0x134ce6c00 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x324a16600 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file data-0x134cf3200 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x30a678000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file data-0x140660000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x30a700000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file data-0x1406e8000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x30a678000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-0x140660000 doesn't match image /Users/jan/Projekts/FTMuseum/Test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.220 seconds
+- Loaded All Assemblies, in  0.222 seconds
 Native extension for OSXStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.858 seconds
-Domain Reload Profiling: 1078ms
+- Finished resetting the current domain, in  0.834 seconds
+Domain Reload Profiling: 1056ms
 	BeginReloadAssembly (80ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
+		CreateAndSetChildDomain (24ms)
 	RebuildCommonClasses (22ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (13ms)
-	LoadAllAssembliesAndSetupDomain (97ms)
-		LoadAssemblies (117ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (100ms)
+		LoadAssemblies (123ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (11ms)
+		AnalyzeDomain (10ms)
 			TypeCache.Refresh (5ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (859ms)
+	FinalizeReload (834ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (703ms)
+		SetupLoadedEditorAssemblies (641ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (30ms)
-			ProcessInitializeOnLoadAttributes (657ms)
+			BeforeProcessingInitializeOnLoad (32ms)
+			ProcessInitializeOnLoadAttributes (593ms)
 			ProcessInitializeOnLoadMethodAttributes (11ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (3ms)
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3293 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3816.
-Memory consumption went from 182.0 MB to 182.0 MB.
-Total: 2.628250 ms (FindLiveObjects: 0.132250 ms CreateObjectMapping: 0.051541 ms MarkObjects: 2.379875 ms  DeleteObjects: 0.063959 ms)
+Unloading 3292 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3853.
+Memory consumption went from 172.1 MB to 172.1 MB.
+Total: 2.701667 ms (FindLiveObjects: 0.137834 ms CreateObjectMapping: 0.056916 ms MarkObjects: 2.477042 ms  DeleteObjects: 0.029458 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
